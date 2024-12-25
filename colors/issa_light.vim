@@ -55,6 +55,7 @@ hi Visual ctermfg=White ctermbg=Gray guifg=#fdf6e3 guibg=#a8a8a8
 hi Folded ctermfg=DarkGray ctermbg=LightGray cterm=bold,underline guifg=#6c6c6c guibg=#eee8d5 gui=bold,underline guisp=#6c6c6c
 
 " Modified from https://github.com/romainl/flattened/blob/master/colors/flattened_light.vim
+" I don't know if this does anything, and the colors here might be wrong...
 if has('nvim')
   let g:terminal_color_0  = '#073642'
   let g:terminal_color_1  = '#dc322f'
