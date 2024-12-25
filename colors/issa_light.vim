@@ -8,9 +8,9 @@ let colors_name = 'issa_light'
 
 set background=light
 
-hi Comment term=NONE cterm=NONE ctermfg=DarkBlue ctermbg=NONE gui=NONE guifg=#dc322f guibg=NONE
-hi String term=NONE cterm=NONE ctermfg=DarkRed ctermbg=NONE gui=NONE guifg=#268bd2 guibg=NONE
-hi SpecialChar term=NONE cterm=NONE ctermfg=DarkRed ctermbg=NONE gui=NONE guifg=#268bd2 guibg=NONE
+hi Comment term=NONE cterm=NONE ctermfg=DarkBlue ctermbg=NONE gui=NONE guifg=#268bd2 guibg=NONE
+hi String term=NONE cterm=NONE ctermfg=DarkRed ctermbg=NONE gui=NONE guifg=#dc322f guibg=NONE
+hi SpecialChar term=NONE cterm=NONE ctermfg=DarkRed ctermbg=NONE gui=NONE guifg=#dc322f guibg=NONE
 
 " Turn most syntax highlighting off.
 " Taken from https://github.com/robertmeta/nofrils/blob/master/colors/nofrils-light.vim
