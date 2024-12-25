@@ -6,6 +6,8 @@ endif
 
 let colors_name = 'issa_light'
 
+hi Normal cterm=NONE guifg=#333333 guibg=#fdf6e3 gui=NONE
+
 set background=light
 
 hi Comment term=NONE cterm=NONE ctermfg=DarkBlue ctermbg=NONE gui=NONE guifg=#268bd2 guibg=NONE
