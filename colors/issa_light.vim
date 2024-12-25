@@ -51,3 +51,23 @@ hi Underlined term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE
 " Taken from my vimrc... I think I got this from the Solarized theme.
 hi Visual ctermfg=White ctermbg=Gray
 hi Folded ctermfg=DarkGray ctermbg=LightGray cterm=bold,underline
+
+" Modified from https://github.com/romainl/flattened/blob/master/colors/flattened_light.vim
+if has('nvim')
+  let g:terminal_color_0  = '#073642'
+  let g:terminal_color_1  = '#dc322f'
+  let g:terminal_color_2  = '#859900'
+  let g:terminal_color_3  = '#b58900'
+  let g:terminal_color_4  = '#268bd2'
+  let g:terminal_color_5  = '#d33682'
+  let g:terminal_color_6  = '#2aa198'
+  let g:terminal_color_7  = '#eee8d5'
+  let g:terminal_color_8  = '#002b36'
+  let g:terminal_color_9  = '#cb4b16'
+  let g:terminal_color_10 = '#8ae234'
+  let g:terminal_color_11 = '#fce94f'
+  let g:terminal_color_12 = '#729fcf'
+  let g:terminal_color_13 = '#6c71c4'
+  let g:terminal_color_14 = '#34e2e2'
+  let g:terminal_color_15 = '#fdf6e3'
+endif
