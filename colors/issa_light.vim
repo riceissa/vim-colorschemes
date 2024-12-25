@@ -52,7 +52,7 @@ hi Underlined term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE
 
 " Taken from my vimrc... I think I got this from the Solarized theme.
 hi Visual ctermfg=White ctermbg=Gray guifg=#fdf6e3 guibg=#a8a8a8
-hi Folded ctermfg=DarkGray ctermbg=LightGray cterm=bold,underline
+hi Folded ctermfg=DarkGray ctermbg=LightGray cterm=bold,underline guifg=#6c6c6c guibg=#eee8d5 gui=bold,underline guisp=#6c6c6c
 
 " Modified from https://github.com/romainl/flattened/blob/master/colors/flattened_light.vim
 if has('nvim')
