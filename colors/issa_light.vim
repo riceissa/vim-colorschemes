@@ -14,6 +14,9 @@ hi Comment term=NONE cterm=NONE ctermfg=DarkBlue ctermbg=NONE gui=NONE guifg=#26
 hi String term=NONE cterm=NONE ctermfg=DarkRed ctermbg=NONE gui=NONE guifg=#dc322f guibg=NONE
 hi SpecialChar term=NONE cterm=NONE ctermfg=DarkRed ctermbg=NONE gui=NONE guifg=#dc322f guibg=NONE
 
+hi SpellBad cterm=NONE term=reverse ctermbg=224 gui=undercurl guisp=Red
+hi SpellCap cterm=NONE term=reverse ctermbg=81 gui=undercurl guisp=Blue
+
 " Changing ctermbg is useful for seeing the full extent of tabs with :set list
 highlight SpecialKey ctermfg=DarkGray ctermbg=LightGray
 if has('nvim')
