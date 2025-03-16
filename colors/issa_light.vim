@@ -14,6 +14,16 @@ hi Comment term=NONE cterm=NONE ctermfg=DarkBlue ctermbg=NONE gui=NONE guifg=#26
 hi String term=NONE cterm=NONE ctermfg=DarkRed ctermbg=NONE gui=NONE guifg=#dc322f guibg=NONE
 hi SpecialChar term=NONE cterm=NONE ctermfg=DarkRed ctermbg=NONE gui=NONE guifg=#dc322f guibg=NONE
 
+" Changing ctermbg is useful for seeing the full extent of tabs with :set list
+highlight SpecialKey ctermfg=DarkGray ctermbg=LightGray
+if has('nvim')
+  highlight Whitespace ctermfg=DarkGray ctermbg=LightGray
+endif
+
+" Taken from my old vimrc... I think I got this from the Solarized theme.
+hi Visual ctermfg=White ctermbg=Gray guifg=#fdf6e3 guibg=#a8a8a8
+hi Folded ctermfg=DarkGray ctermbg=LightGray cterm=bold,underline guifg=#6c6c6c guibg=#eee8d5 gui=bold,underline guisp=#6c6c6c
+
 " Turn most syntax highlighting off.
 " Taken from https://github.com/robertmeta/nofrils/blob/master/colors/nofrils-light.vim
 hi Boolean term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
@@ -49,10 +59,6 @@ hi Title term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guib
 hi Typedef term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Type term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Underlined term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-
-" Taken from my vimrc... I think I got this from the Solarized theme.
-hi Visual ctermfg=White ctermbg=Gray guifg=#fdf6e3 guibg=#a8a8a8
-hi Folded ctermfg=DarkGray ctermbg=LightGray cterm=bold,underline guifg=#6c6c6c guibg=#eee8d5 gui=bold,underline guisp=#6c6c6c
 
 " Modified from https://github.com/romainl/flattened/blob/master/colors/flattened_light.vim
 " I don't know if this does anything, and the colors here might be wrong...
