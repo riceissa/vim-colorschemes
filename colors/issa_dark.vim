@@ -6,12 +6,12 @@ endif
 
 let colors_name = 'issa_dark'
 
-hi Normal cterm=NONE guifg=#d4be98 guibg=#28292a gui=NONE
+hi Normal cterm=NONE guifg=#d1b897 guibg=#062329 gui=NONE
 
-set background=light
+set background=dark
 
-hi Comment term=NONE cterm=NONE ctermfg=Green ctermbg=NONE gui=NONE guifg=#7fd925 guibg=NONE
-hi String term=NONE cterm=NONE ctermfg=Red ctermbg=NONE gui=NONE guifg=#f55838 guibg=NONE
+hi Comment term=NONE cterm=NONE ctermfg=Green ctermbg=NONE gui=NONE guifg=#3fdf1f guibg=NONE
+hi String term=NONE cterm=NONE ctermfg=Red ctermbg=NONE gui=NONE guifg=#dc322f guibg=NONE
 hi SpecialChar term=NONE cterm=NONE ctermfg=DarkRed ctermbg=NONE gui=NONE guifg=#dc322f guibg=NONE
 
 " Changing ctermbg/guibg is useful for seeing the full extent of tabs with
