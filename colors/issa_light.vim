@@ -17,6 +17,8 @@ hi SpecialChar term=NONE cterm=NONE ctermfg=DarkRed ctermbg=NONE gui=NONE guifg=
 hi SpellBad cterm=NONE term=reverse ctermbg=224 gui=undercurl guisp=Red
 hi SpellCap cterm=NONE term=reverse ctermbg=81 gui=undercurl guisp=Blue
 
+hi MatchParen ctermbg=14 guibg=Cyan
+
 " 		"
 " Changing ctermbg is useful for seeing the full extent of tabs with :set list
 highlight SpecialKey ctermfg=DarkGray ctermbg=LightGray guifg=#586e75 guibg=#eee8d5
