@@ -65,7 +65,10 @@ hi Type term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg
 hi Underlined term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 
 " Modified from https://github.com/romainl/flattened/blob/master/colors/flattened_light.vim
-" I don't know if this does anything, and the colors here might be wrong...
+" The following controls the terminal colors when using :terminal, but only
+" when :set termguicolors is on.
+" See :helpgrep terminal_color for more information.
+" TODO: the colors here might be wrong.
 if has('nvim')
   let g:terminal_color_0  = '#073642'
   let g:terminal_color_1  = '#dc322f'
